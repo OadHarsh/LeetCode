@@ -8,7 +8,6 @@ class Solution(object):
         
         left , right = 0 ,len(nums)
 
-        # mid = (left+right)//2 ;
 
         if(len(nums) ==0):
             return 0;
@@ -23,8 +22,8 @@ class Solution(object):
 
                 if (nums[i]==target):
                     return i 
-
-        if(target >= nums[(left+right)//2]):
+        else:
+        # if(target >= nums[(left+right)//2]):
             for i in range(((left+right)//2),right):
                 if (nums[i]>target):
                     return i
