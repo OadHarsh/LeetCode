@@ -20,7 +20,7 @@ class Solution(object):
                 if (nums[i]>target):
                     return i
 
-                if (nums[i]==target):
+                elif (nums[i]==target):
                     return i 
         else:
         # if(target >= nums[(left+right)//2]):
@@ -28,5 +28,5 @@ class Solution(object):
                 if (nums[i]>target):
                     return i
 
-                if (nums[i]==target):
+                elif (nums[i]==target):
                     return i 
