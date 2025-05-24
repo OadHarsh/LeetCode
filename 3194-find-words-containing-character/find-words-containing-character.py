@@ -5,9 +5,7 @@ class Solution(object):
         :type x: str
         :rtype: List[int]
         """
-
         indices  = [];
-
         for i in range(0,len(words)):
             for j in words[i]:
                 if (x == j):
