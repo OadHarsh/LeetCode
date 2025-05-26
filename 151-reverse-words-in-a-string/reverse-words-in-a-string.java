@@ -8,9 +8,7 @@ class Solution {
             if (i != 0){
                 answer += " " ;
             }
-
         } 
-
         return answer;
     }
 }
