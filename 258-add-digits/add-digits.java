@@ -5,9 +5,7 @@ class Solution {
         }
         int digit = x % 10;
         x = x / 10;
-        
         int num = digit + addDigits(x);
-        
         if (num > 9){
             return addDigits(num);
         }
