@@ -4,7 +4,6 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
             int j = index[i];
-            // Integer k = Integer.valueOf(j);
             ans.add(j,nums[i]);
         }
 
